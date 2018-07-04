@@ -1,7 +1,7 @@
 # FluentDash
 A Rainmeter skin collection for people with too many screens and a need for some clean system monitoring tools and other various widgets.
 
-# Get the .rmskin release here: https://github.com/Mazeby/FluentDash/releases/
+### Get the .rmskin release here: https://github.com/Mazeby/FluentDash/releases/
 
 # This Rainmeter Skin requires some programs in order to work fully!
 Those programs are:
