@@ -18,7 +18,7 @@ Those programs are:
 ## Some preview screenshots:
 So that you know what you get yourself into... because no one wants to stay in the dark, right?
 
-### CPU widget:
+### CPU widget (support for 2,4,6 and 8 core/threads CPUs):
 ![CPU](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/cpu.PNG "CPU widget")
 
 ### GPU widget:
