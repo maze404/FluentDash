@@ -14,23 +14,23 @@ Those programs are:
 3. **/u/attomsk** for posting that one thread on reddit showing, how you created your gpu widget. I had a look at your code to see how you got Afterburner running together with Rainmeter and used your thread to get more information on how to set everything up. (https://www.reddit.com/r/Rainmeter/comments/2rnp1p/my_detailed_cpugpu_status_skin_oc/)
 4. **The Rainmeter Documentation** for simply being an awesome and easy to learn and understand documentation of all the functions of Rainmeter! I don't even know what I would have done without it, it is simply great!
 
-## Some preview screenshots
+## Some preview screenshots:
 So that you know what you get yourself into... because no one wants to stay in the dark, right?
 
-### CPU widget
+### CPU widget:
 ![CPU](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/cpu.PNG "CPU widget")
 
-### GPU widget
+### GPU widget:
 ![GPU](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/gpu.PNG "GPU widget")
 
-### RAM widget
+### RAM widget:
 ![RAM](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/RAM.PNG "RAM widget")
 
-### Weather widget
+### Weather widget:
 ![WEATHER](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/weather.PNG "Weather widget")
 
-### Note widget
+### Note widget:
 ![NOTES](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/notes.PNG "Note widget")
 
-### Time and Date widget
+### Time and Date widget:
 ![TimeAndDate](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/time.PNG "Time and Date widget")
