@@ -17,14 +17,20 @@ Those programs are:
 ## Some preview screenshots
 So that you know what you get yourself into... because no one wants to stay in the dark, right?
 
+### CPU widget
 ![CPU](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/cpu.PNG "CPU widget")
 
+### GPU widget
 ![GPU](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/gpu.PNG "GPU widget")
 
+### RAM widget
 ![RAM](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/RAM.PNG "RAM widget")
 
+### Weather widget
 ![WEATHER](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/weather.PNG "Weather widget")
 
+### Note widget
 ![NOTES](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/notes.PNG "Note widget")
 
+### Time and Date widget
 ![TimeAndDate](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/time.PNG "Time and Date widget")
