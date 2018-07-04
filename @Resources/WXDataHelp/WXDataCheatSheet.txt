@@ -1,0 +1,157 @@
+=======================================================================================
+Example URL
+http://wxdata.weather.com/wxdata/weather/local/USVA0944?cc=*&unit=f&dayf=6&locale=en_US
+=======================================================================================
+
+RegExp=#UnitsOfMeasure#
+=======================
+StringIndex=1	<locale>(.*)</locale>		Locale the feed is using - Example: "en_US"
+StringIndex=2	<form>(.*)</form>				Form factor feed is using - Example: "MEDIUM"
+StringIndex=3	<ut>(.*)</ut>						Unit of measure for temperature - Example "F"
+StringIndex=4	<ud>(.*)</ud>						Unit of measure for distance - Example "mi"
+StringIndex=5	<us>(.*)</us>						Unit of measure for speed - Example: "mph"
+StringIndex=6	<up>(.*)</up>						Unit of measure for barometric pressure - Example: "in"
+StringIndex=7	<ur>(.*)</ur>						Unit of measure for precipitation amount - Example: "in"
+
+RegExp=#Location#
+=================
+StringIndex=1	<locid="(.*)"						Location ID the feed is using - Example: "USVA0944"
+StringIndex=2	<dnam>(.*)</dnam>				Location name the feed is using - Example: "Fort Hunt, VA"
+StringIndex=3	<tm>(.*)</tm>						Current time at the location - Example: "11:08 AM"
+StringIndex=4	<lat>(.*)</lat>					Latitude of the location - Example: "38.73"
+StringIndex=5	<lon>(.*)</lon>					Longitude of the location - Example: "-77.06"
+StringIndex=6	<sunr>(.*)</sunr>				Time for sunrise for current day - Example: "6:25 AM"
+StringIndex=7	<suns>(.*)</suns>				Time for sunset for current day - Example: "7:50 PM"
+StringIndex=8	<zone>(.*)</zone>				Timezone offset from UTC for the location - Example: "-4"
+
+RegExp=#CurrentConditions#
+==========================
+StringIndex=1	<lsup>(.*)</lsup>				Date and time of the observation - Example: "4/19/16 10:45 AM EDT"
+StringIndex=2	<obst>(.*)</obst>				Name of the station making the observation - "Example: "Fort Belvoir, VA, US"
+StringIndex=3	<tmp>(.*)</tmp>					Current temperature in degrees - Example: "80"
+StringIndex=4	<flik>(.*)</flik>				Current "feels like" temperature in degrees - Example: "79"
+StringIndex=5	<t>(.*)</t>							Text of current conditions - Example: "Partly Cloudy"
+StringIndex=6	<icon>(.*)</icon>				Icon number for current conditions - Example: "32"
+
+RegExp=#CurrentBarometric#
+==========================
+StringIndex=1	<r>(.*)</r>							Current pressure reading - Example: "30.06"
+StringIndex=2	<d>(.*)</d>							Current direction of pressure "change" - Example: "rising"
+
+RegExp=#CurrentWind#
+====================
+StringIndex=1	<s>(.*)</s>							Current wind speed - Example: "6" (or "calm")
+StringIndex=2	<gust>(.*)</gust>				Current wind gust speed - Example: "10" (or "N/A")
+StringIndex=3	<d>(.*)</d>							Current wind direction in compass degrees - Example: "330"
+StringIndex=4	<t>(.*)</t>							Current wind direction compass text - Example: "NW"
+
+RegExp=#CurrentElements#
+========================
+StringIndex=1	<hmid>(.*)</hmid>				Current humidity in percent - Example: "20"
+StringIndex=2	<vis>(.*)</vis>					Current visibility distance - Example: "10.0"
+StringIndex=3	<i>(.*)</i>							Current UV index number - Example: "5"
+StringIndex=4	<t>(.*)</t>							Current UV index text - Example: "Moderate"
+StringIndex=5	<dewp>(.*)</dewp>				Current dewpoint in degrees - Example: "36"
+StringIndex=6	<icon>(.*)</icon>				Current moon phase icon number - Example: "12"
+StringIndex=7	<t>(.*)</t>							Current moon phase text - Example: "Waxing Gibbous"
+
+RegExp=#TodayGeneral#
+=====================
+StringIndex=1	<lsup>(.*)</lsup>				Date and time of the observation - Example: "4/19/16 10:45 AM EDT"
+StringIndex=2	t="(.*)"								Day of the week text - Example: "Tuesday"
+StringIndex=3	dt="(.*)"								Month and day text - Example: "Apr 19"
+StringIndex=4	<hi>(.*)</hi>						Forecast high temperature in degrees - Example: "81"
+StringIndex=5	<low>(.*)</low>					Forecast low temperature in degrees - Example: "45"
+StringIndex=6	<sunr>(.*)</sunr>				Time for sunrise for current day - Example: "6:25 AM"
+StringIndex=7	<suns>(.*)</suns>				Time for sunset for current day - Example: "7:50 PM"
+
+=====================================================================================================
+Note: At some time in the afternoon, all "day" values for "today" will become "", or an empty string.
+This is because there can't logically be a "forecast" for a time that has passed.
+Test with IFMatch and use "night" values if "day" values are not found.
+=====================================================================================================
+
+RegExp=#TodayDayConditions#
+===========================
+StringIndex=1	<icon>(.*)</icon>				Icon number for today "day" forecast conditions - Example: "32"
+StringIndex=2	<t>(.*)</t>							Text of today "day" forecast conditions - Example: "Partly Cloudy"
+
+RegExp=#TodayDayWind#
+=====================
+StringIndex=1	<s>(.*)</s>							Forecast for today "day" wind speed - Example: "6" (or "calm")
+StringIndex=2	<gust>(.*)</gust>				Forecast for today "day" wind gust speed - Example: "10" (or "N/A")
+StringIndex=3	<d>(.*)</d>							Forecast for today "day" wind direction in compass degrees - Example: "330"
+StringIndex=4	<t>(.*)</t>							Forecast for today "day" wind direction compass text - Example: "NW"
+
+RegExp=#TodayDayElements#
+=========================
+StringIndex=1	<bt>(.*)</bt>						Short text of today "day" forecast conditions - Example: "P Cloudy"
+StringIndex=2	<ppcp>(.*)</ppcp>				Forecast for today "day" precipitation in percent - Example: "10"				
+StringIndex=3	<hmid>(.*)</hmid>				Forecast for today "day" humidity in percent - Example: "20"
+
+RegExp=#TodayNightConditions#
+=============================
+StringIndex=1	<icon>(.*)</icon>				Icon number for today "night" forecast conditions - Example: "32"
+StringIndex=2	<t>(.*)</t>							Text of today "night" forecast conditions - Example: "Partly Cloudy"
+
+RegExp=#TodayNightWind#
+=======================
+StringIndex=1	<s>(.*)</s>							Forecast for today "night" wind speed - Example: "6" (or "calm")
+StringIndex=2	<gust>(.*)</gust>				Forecast for today "night" wind gust speed - Example: "10" (or "N/A")
+StringIndex=3	<d>(.*)</d>							Forecast for today "night" wind direction in compass degrees - Example: "330"
+StringIndex=4	<t>(.*)</t>							Forecast for today "night" wind direction compass text - Example: "NW"
+
+RegExp=#TodayNightElements#
+===========================
+StringIndex=1	<bt>(.*)</bt>						Short text of today "night" forecast conditions - Example: "P Cloudy"
+StringIndex=2	<ppcp>(.*)</ppcp>				Forecast for today "night" precipitation in percent - Example: "10"				
+StringIndex=3	<hmid>(.*)</hmid>				Forecast for today "night" humidity in percent - Example: "20"
+
+RegExp=#Day1General#
+====================
+StringIndex=1	t="(.*)"								Day of the week text - Example: "Wednesday"
+StringIndex=2	dt="(.*)"								Month and day text - Example: "Apr 20"
+StringIndex=3	<hi>(.*)</hi>						Forecast high temperature in degrees - Example: "81"
+StringIndex=4	<low>(.*)</low>					Forecast low temperature in degrees - Example: "45"
+StringIndex=5	<sunr>(.*)</sunr>				Time for sunrise for day 1 - Example: "6:25 AM"
+StringIndex=6	<suns>(.*)</suns>				Time for sunset for day 1 - Example: "7:50 PM"
+
+RegExp=#Day1DayConditions#
+==========================
+StringIndex=1	<icon>(.*)</icon>				Icon number for day 1 "day" forecast conditions - Example: "32"
+StringIndex=2	<t>(.*)</t>							Text of day 1 "day" forecast conditions - Example: "Partly Cloudy"
+
+RegExp=#Day1DayWind#
+====================
+StringIndex=1	<s>(.*)</s>							Forecast for day 1 "day" wind speed - Example: "6" (or "calm")
+StringIndex=2	<gust>(.*)</gust>				Forecast for day 1 "day" wind gust speed - Example: "10" (or "N/A")
+StringIndex=3	<d>(.*)</d>							Forecast for day 1 "day" wind direction in compass degrees - Example: "330"
+StringIndex=4	<t>(.*)</t>							Forecast for day 1 "day" wind direction compass text - Example: "NW"
+
+RegExp=#Day1DayElements#
+=======================
+StringIndex=1	<bt>(.*)</bt>						Short text of day 1 "day" forecast conditions - Example: "P Cloudy"
+StringIndex=2	<ppcp>(.*)</ppcp>				Forecast for day 1 "day" precipitation in percent - Example: "10"				
+StringIndex=3	<hmid>(.*)</hmid>				Forecast for day 1 "day" humidity in percent - Example: "20"
+
+RegExp=#Day1NightConditions#
+============================
+StringIndex=1	<icon>(.*)</icon>				Icon number for day 1 "night" forecast conditions - Example: "32"
+StringIndex=2	<t>(.*)</t>							Text of day 1 "night" forecast conditions - Example: "Partly Cloudy"
+
+RegExp=#Day1NightWind#
+======================
+StringIndex=1	<s>(.*)</s>							Forecast for day 1 "night" wind speed - Example: "6" (or "calm")
+StringIndex=2	<gust>(.*)</gust>				Forecast for day 1 "night" wind gust speed - Example: "10" (or "N/A")
+StringIndex=3	<d>(.*)</d>							Forecast for day 1 "night" wind direction in compass degrees - Example: "330"
+StringIndex=4	<t>(.*)</t>							Forecast for day 1 "night" wind direction compass text - Example: "NW"
+
+RegExp=#Day1NightElements#
+==========================
+StringIndex=1	<bt>(.*)</bt>						Short text of day 1 "night" forecast conditions - Example: "P Cloudy"
+StringIndex=2	<ppcp>(.*)</ppcp>				Forecast for day 1 "night" precipitation in percent - Example: "10"				
+StringIndex=3	<hmid>(.*)</hmid>				Forecast for day 1 "night" humidity in percent - Example: "20"
+
+==============================================================================================
+Days 2 though 5 (possible total of 6 days including "today") follow the same pattern as day 1.
+==============================================================================================
