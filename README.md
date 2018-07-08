@@ -19,20 +19,26 @@ Those programs are:
 ## Some preview screenshots:
 So that you know what you get yourself into... because no one wants to stay in the dark, right?
 
-### CPU widget (support for 2,4,6 and 8 core/threads CPUs):
+### CPU skin (support for 2,4,6 and 8 core/threads CPUs):
 ![CPU](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/cpu.PNG "CPU widget")
 
-### GPU widget:
+### GPU skin:
 ![GPU](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/gpu.PNG "GPU widget")
 
-### RAM widget:
+### RAM skin:
 ![RAM](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/RAM.PNG "RAM widget")
 
-### Weather widget:
+### Network skin:
+![NETWORK](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/network.PNG)
+
+### Music skin:
+![MUSIC](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/music.PNG)
+
+### Weather skin:
 ![WEATHER](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/weather.PNG "Weather widget")
 
-### Note widget:
+### Note skin:
 ![NOTES](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/notes.PNG "Note widget")
 
-### Time and Date widget:
+### Time and Date skin:
 ![TimeAndDate](https://raw.githubusercontent.com/Mazeby/FluentDash/master/Example%20Images/time.PNG "Time and Date widget")
