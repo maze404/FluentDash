@@ -1,5 +1,5 @@
 [Variables]
-Note=Your notes here.
+Note=hello
       ____/,    _____)
       \  //    /   /
       _\/_     \  (
