@@ -3,7 +3,7 @@
 # FluentDash11
 A Rainmeter skin made to look like it is part of the new Windows 11 OS.
 
-### Get the .rmskin release here: https://github.com/Mazeby/FluentDash/releases/
+### Get the .rmskin release [here](https://github.com/maze404/FluentDash/releases/tag/v2.0)
 
 ![OVERVIEW](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/FluentDash11%20Overview.png "Overview")
 
