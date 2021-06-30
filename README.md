@@ -1,7 +1,11 @@
-### NOTE: Since i finally have time and energy again to work on this project, i've decided to completely overhaul.... everything. I hereby present you the new, completely redesigned and rewritten version of FluentDash!
+
 
 # FluentDash11
 A Rainmeter skin made to look like it is part of the new Windows 11 OS.
+
+### Get the .rmskin release here: https://github.com/Mazeby/FluentDash/releases/
+
+![OVERVIEW](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/FluentDash11%20Overview.png "Overview")
 
 #### Major changes over the old version:
 - Fixed way too many bugs
@@ -11,8 +15,6 @@ A Rainmeter skin made to look like it is part of the new Windows 11 OS.
 - Requires fewer external programs to work properly
 - More focus on usability, lower resource consumption and better code readability
 - Removed the music, weather and notes widget until I find a better solution for how to implement them
-
-### Get the .rmskin release here: https://github.com/Mazeby/FluentDash/releases/
 
 # This Rainmeter Skin requires some programs in order to work fully!
 Those programs are:
@@ -27,25 +29,16 @@ Those programs are:
 So that you know what you get yourself into... because no one wants to stay in the dark, right?
 
 ### CPU skin (support for 2,4,6 and 8 core/threads CPUs):
-
+![CPU](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/CPU%20Dash.png "CPU widget")
 
 ### GPU skin:
-
+![GPU](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/GPU%20Dash.png "GPU widget")
 
 ### RAM skin:
-
+![RAM](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/RAM%20Dash.png "RAM widget")
 
 ### Network skin:
+![NETWORK](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/Net%20Dash.png "Network widget")
 
-
-### Music skin:
-
-
-### Weather skin:
-
-
-### Note skin:
-
-
-### Time and Date skin:
-
+### System information skin:
+![SYSINFO](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/SysInfo%20Dash.png "System information widget")
