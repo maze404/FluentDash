@@ -5,16 +5,12 @@ A Rainmeter skin made to look like it is part of the new Windows 11 OS.
 
 ### Get the .rmskin release [here](https://github.com/maze404/FluentDash/releases/tag/v2.1.1)
 
-![OVERVIEW](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/FluentDash11%20Overview.png "Overview")
+![OVERVIEW](https://raw.githubusercontent.com/maze404/FluentDash/master/FluentDash11%20Images/LightDarkMode.png "Overview")
 
-#### Major changes over the old version:
-- Fixed way too many bugs
-- Updated the skin to work with Rainmeter 4.3
-- Completely rewrote the code from scratch
-- Completely redesigned everything
-- Requires fewer external programs to work properly
-- More focus on usability, lower resource consumption and better code readability
-- Removed the music, weather and notes widget until I find a better solution for how to implement them
+### New settings widget:
+The new settings widget allows you to easily change from light to dark mode for the skin itself and the text seperately, as well customizing the background blur option, the corner roundedness and turning various widgets on and off from the settings app!
+
+![SETTINGS](https://raw.githubusercontent.com/maze404/FluentDash/master/FluentDash11%20Images/Settings%20Dash.png "Settings")
 
 # This Rainmeter Skin requires some programs in order to work fully!
 Those programs are:
