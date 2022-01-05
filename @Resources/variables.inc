@@ -2,9 +2,11 @@
 ; Version Number
 Version_Number=2.1.1
 ; Toggle Switches
-Switch=0
+Switch=1
 Switch1=1
-
+Switch2=0
+Switch3=1
+Switch4=1
 
 ; Light Mode
 LightDarkTheme_Text0=Light
@@ -39,6 +41,12 @@ Button_Text_Color1=10,10,10,255
 ; Blur Type
 Blur_Type=Acrylic
 
+;Border Type
+Border_Type0=None
+Border_Type1=All
+BorderFont_Text0=Hide
+BorderFont_Text1=Show
+
 ; Dark Font
 Font_Color0=25,25,25,255
 Title_Color0=10,10,10,255
@@ -52,7 +60,12 @@ Bar_Tint1=255,255,255,255
 LightDarkFont_Text1=Light
 
 ; Rounded Corners
-Round_Corner=10,10
+Round_Corner0=0,0
+Round_Corner1=10,10
+FGRound_Corner0=None
+FGRound_Corner1=None
+CornerFont_Text0=None
+CornerFont_Text1=Win11
 
 ; Miscellaneous Toggle Switches
 ToggleGPU=1
