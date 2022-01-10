@@ -1,6 +1,6 @@
 function Update () {
 $CoreCount=(Get-CimInstance Win32_ComputerSystem).NumberOfLogicalProcessors
-$RootPath=(get-childitem $HOME -recurse | Where-Object {$_.PSIsContainer -eq $true -and $_.Name -match "^FluentDash11$" -and $_.FullName -match "Rainmeter"}).FullName
+$RootPath=(get-childitem $HOME -recurse | Where-Object {$_.PSIsContainer -eq $true -and $_.Name -match "^FluentDash$" -and $_.FullName -match "Rainmeter\\Skins\\FluentDash"}).FullName
 $WorkingDir="$RootPath\@Resources"
 if ( Test-Path $WorkingDir\cpumeters.inc ) { Remove-Item $WorkingDir\cpumeters.inc}
 for ($i=1; $i -le $CoreCount ; $i++) {

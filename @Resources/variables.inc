@@ -67,7 +67,7 @@ LightDarkFont_Text1=Light
 Round_Corner0=0,0
 Round_Corner1=10,10
 FGRound_Corner0=None
-FGRound_Corner1=None
+FGRound_Corner1=Round
 CornerFont_Text0=None
 CornerFont_Text1=Win11
 
