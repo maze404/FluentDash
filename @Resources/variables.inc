@@ -81,7 +81,7 @@ GPUActive0=!ActivateConfig "FluentDash11\GPU"
 
 ;CPU
 ToggleCPU=1
-SwitchCPUVersion=4
+SwitchCPUVersion=0
 CPUActive0=!DeactivateConfig "FluentDash11\CPU"
 CPUActive1=!ActivateConfig "FluentDash11\CPU" "8 Core.ini"
 CPUActive2=!ActivateConfig "FluentDash11\CPU" "6 Core.ini"
@@ -89,7 +89,7 @@ CPUActive3=!ActivateConfig "FluentDash11\CPU" "4 Core.ini"
 CPUActive4=!ActivateConfig "FluentDash11\CPU" "2 Core.ini"
 CPUActive5=!ActivateConfig "FluentDash11\CPU" "Auto Core.ini"
 
-SwitchCPUVersionText=5
+SwitchCPUVersionText=1
 CPUText0=OFF
 CPUText1=8 Cores
 CPUText2=6 Cores
