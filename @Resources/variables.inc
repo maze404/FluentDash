@@ -1,10 +1,11 @@
 [Variables]
 ; Version Number
-Version_Number=2.5.1
+Version_Number=2.5.2
+
 ; Toggle Switches
 Switch=1
 Switch1=1
-Switch2=0
+Switch2=1
 Switch3=1
 Switch4=1
 
@@ -39,7 +40,10 @@ Button_Color1=255,255,255,95
 Button_Text_Color1=10,10,10,255
 
 ; Blur Type
-Blur_Type=Acrylic
+SwitchBlur=1
+Blur_Type0=None
+Blur_Type1=Blur
+Blur_Type2=Acrylic
 
 ;Border Type
 Border_Type0=None
@@ -68,12 +72,14 @@ CornerFont_Text0=None
 CornerFont_Text1=Win11
 
 ; Miscellaneous Toggle Switches
-ToggleGPU=1
+; GPU
+ToggleGPU=0
 GPU0=OFF
 GPU1=ON
 GPUActive1=!DeactivateConfig "FluentDash11\GPU"
 GPUActive0=!ActivateConfig "FluentDash11\GPU"
 
+;CPU
 ToggleCPU=1
 ToggleCPUOption=0
 CPU0=OFF
@@ -81,32 +87,42 @@ CPU1=ON
 CPUActive1=!DeactivateConfig "FluentDash11\CPU"
 CPUActive0=!ActivateConfig "FluentDash11\CPU" "[#CPUVersion[#SwitchCPUVersionText]] Core.ini"
 
-SwitchCPUVersion=2
-SwitchCPUVersionText=3
+SwitchCPUVersion=3
 CPUVersion0=2
 CPUVersion1=4
 CPUVersion2=6
 CPUVersion3=8
+CPUVersion4=Auto
 
+SwitchCPUVersionText=4
+CPUText0=2 Cores
+CPUText1=4 Cores
+CPUText2=6 Cores
+CPUText3=8 Cores
+CPUText4=Auto
+
+; RAM
 ToggleRAM=1
 RAM0=OFF
 RAM1=ON
 RAMActive1=!DeactivateConfig "FluentDash11\RAM"
 RAMActive0=!ActivateConfig "FluentDash11\RAM"
 
+; Network
 ToggleNetwork=1
 Network0=OFF
 Network1=ON
 NetworkActive1=!DeactivateConfig "FluentDash11\NETWORK"
 NetworkActive0=!ActivateConfig "FluentDash11\NETWORK"
 
-
+; Disk
 ToggleDisk=1
 Disk0=OFF
 Disk1=ON
 DiskActive1=!DeactivateConfig "FluentDash11\Disk Usage"
 DiskActive0=!ActivateConfig "FluentDash11\Disk Usage"
 
+; System Information
 ToggleSysInfo=1
 SysInfo0=OFF
 SysInfo1=ON
