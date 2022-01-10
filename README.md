@@ -24,7 +24,7 @@ Those programs are:
 ## Some preview screenshots:
 So that you know what you get yourself into... because no one wants to stay in the dark, right?
 
-### CPU skin (support for 2,4,6 and 8 core/threads CPUs):
+### CPU skin (support for 2,4,6 and 8 core/threads CPUs as well as auto-detection of cores/threads):
 ![CPU](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/CPU%20Dash.png "CPU widget")
 
 ### GPU skin:
@@ -38,3 +38,6 @@ So that you know what you get yourself into... because no one wants to stay in t
 
 ### System information skin:
 ![SYSINFO](https://raw.githubusercontent.com/maze404/FluentDash/FluentDash11/FluentDash11%20Images/SysInfo%20Dash.png "System information widget")
+
+### Complete Overview of all widgets and their variants:
+![Complete Overview](https://raw.githubusercontent.com/maze404/FluentDash/master/FluentDash11%20Images/FluentDash11%20Full%20Overview.png)
