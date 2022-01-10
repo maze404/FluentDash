@@ -1,6 +1,6 @@
 [Variables]
 ; Version Number
-Version_Number=2.5.2
+Version_Number=2.5.3
 
 ; Toggle Switches
 Switch=1
