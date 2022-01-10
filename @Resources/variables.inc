@@ -40,7 +40,7 @@ Button_Color1=255,255,255,95
 Button_Text_Color1=10,10,10,255
 
 ; Blur Type
-SwitchBlur=1
+SwitchBlur=2
 Blur_Type0=None
 Blur_Type1=Blur
 Blur_Type2=Acrylic
@@ -81,25 +81,21 @@ GPUActive0=!ActivateConfig "FluentDash11\GPU"
 
 ;CPU
 ToggleCPU=1
-ToggleCPUOption=0
-CPU0=OFF
-CPU1=ON
-CPUActive1=!DeactivateConfig "FluentDash11\CPU"
-CPUActive0=!ActivateConfig "FluentDash11\CPU" "[#CPUVersion[#SwitchCPUVersionText]] Core.ini"
+SwitchCPUVersion=4
+CPUActive0=!DeactivateConfig "FluentDash11\CPU"
+CPUActive1=!ActivateConfig "FluentDash11\CPU" "8 Core.ini"
+CPUActive2=!ActivateConfig "FluentDash11\CPU" "6 Core.ini"
+CPUActive3=!ActivateConfig "FluentDash11\CPU" "4 Core.ini"
+CPUActive4=!ActivateConfig "FluentDash11\CPU" "2 Core.ini"
+CPUActive5=!ActivateConfig "FluentDash11\CPU" "Auto Core.ini"
 
-SwitchCPUVersion=3
-CPUVersion0=2
-CPUVersion1=4
-CPUVersion2=6
-CPUVersion3=8
-CPUVersion4=Auto
-
-SwitchCPUVersionText=4
-CPUText0=2 Cores
-CPUText1=4 Cores
+SwitchCPUVersionText=5
+CPUText0=OFF
+CPUText1=8 Cores
 CPUText2=6 Cores
-CPUText3=8 Cores
-CPUText4=Auto
+CPUText3=4 Cores
+CPUText4=2 Cores
+CPUText5=Auto
 
 ; RAM
 ToggleRAM=1
@@ -109,18 +105,34 @@ RAMActive1=!DeactivateConfig "FluentDash11\RAM"
 RAMActive0=!ActivateConfig "FluentDash11\RAM"
 
 ; Network
-ToggleNetwork=1
-Network0=OFF
-Network1=ON
-NetworkActive1=!DeactivateConfig "FluentDash11\NETWORK"
-NetworkActive0=!ActivateConfig "FluentDash11\NETWORK"
+ToggleNetwork=3
+NetworkActive0=!DeactivateConfig "FluentDash11\NETWORK"
+NetworkActive1=!ActivateConfig "FluentDash11\NETWORK" "Network 3 Adapter.ini"
+NetworkActive2=!ActivateConfig "FluentDash11\NETWORK" "Network 2 Adapter.ini"
+NetworkActive3=!ActivateConfig "FluentDash11\NETWORK" "Network 1 Adapter.ini"
+NetworkActive4=!ActivateConfig "FluentDash11\NETWORK" "Network Simple.ini"
+
+ToggleNetworkText=4
+NetworkActiveText0=OFF
+NetworkActiveText1=3 Adapter
+NetworkActiveText2=2 Adapter
+NetworkActiveText3=1 Adapter
+NetworkActiveText4=Simple
 
 ; Disk
-ToggleDisk=1
-Disk0=OFF
-Disk1=ON
-DiskActive1=!DeactivateConfig "FluentDash11\Disk Usage"
-DiskActive0=!ActivateConfig "FluentDash11\Disk Usage"
+ToggleDisk=0
+DiskActive0=!DeactivateConfig "FluentDash11\Disk Usage"
+DiskActive1=!ActivateConfig "FluentDash11\Disk Usage" "4 Disks.ini"
+DiskActive2=!ActivateConfig "FluentDash11\Disk Usage" "3 Disks.ini"
+DiskActive3=!ActivateConfig "FluentDash11\Disk Usage" "2 Disks.ini"
+DiskActive4=!ActivateConfig "FluentDash11\Disk Usage" "1 Disk.ini"
+
+ToggleDiskText=1
+DiskActiveText0=OFF
+DiskActiveText1=4 Disks
+DiskActiveText2=3 Disks
+DiskActiveText3=2 Disks
+DiskActiveText4=1 Disk
 
 ; System Information
 ToggleSysInfo=1
